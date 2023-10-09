@@ -1,0 +1,62 @@
+body {
+    background-color: #2c2c2c;
+    padding: 0;
+    margin: 0;
+}
+
+.headerContainer {
+    display: flex;
+    padding-top: 16px;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    margin: 20px;
+    border-radius: 5px 5px 30px 5px;
+}
+
+.titleDiv {
+    background-color: #2c2c2c;
+    height: 36px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.titleDiv h1 {
+    color: azure;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+}
+
+.title, .bars, .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.bars {
+    gap: 100px;
+}
+
+.bars li a {
+    color: #2c2c2c;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+
+.icons li {
+    width: 20px;
+}
